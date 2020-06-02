@@ -284,7 +284,7 @@ if __name__ == "__main__":
             Resize((512, 512)),
             ToTensor()
         ]),
-        "train": False,
+        "train": True,
         "model_type": "resnet18"
     })
     main(args)
